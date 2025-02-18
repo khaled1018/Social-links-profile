@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "inter-bold";
+  src: url("./fonts/static/Inter-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "inter-regular";
+  src: url("./fonts/static/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "inter-semiBold";
+  src: url("./fonts/static/Inter-SemiBold.ttf") format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgb(31, 31, 31);
+  width: 325px;
+  padding: 24px 0px 16px;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.name {
+  font-family: "inter-bold", sans-serif;
+}
+
+.address {
+  font-family: "inter-semiBold", sans-serif;
+  color: rgb(197, 248, 42);
+  font-size: 0.8rem;
+  margin-top: 0.5em;
+}
+
+.job {
+  font-family: "inter-bold", sans-serif;
+  color: rgb(213 200 200);
+  font-size: 0.8rem;
+  margin-top: 1.7em;
+}
+
+.person-img {
+  width: 80px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  margin-top: 1.5em;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  font-family: "inter-semiBold", sans-serif;
+  display: block;
+  background-color: rgb(51, 51, 51);
+  margin: 1em 1.5em;
+  padding: 0.8em 0;
+  border-radius: 8px;
+}
+
+.link:hover {
+  background-color: rgb(197, 248, 42);
+  color: rgb(20, 20, 20);
+}
+
+#theme-toggle {
+  position: absolute;
+  display: none;
+  color: white;
+  width: 24px;
+  height: 24px;
+  top: 20px;
+  right: 44px;
+  padding: 16px;
+}
